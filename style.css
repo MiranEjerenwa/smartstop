@@ -1,0 +1,36 @@
+.card-body a {
+    word-break: break-all;
+  }
+  
+  .jumbotron {
+    background-color: #20315A; 
+    color: white;
+  }
+  
+  li {
+    color: black;
+    list-style: none;
+    border: 1px #dee2e6 solid;
+    padding: 10px;
+    margin: 2px;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+
+  .modal {
+    background-color: blue;
+    width: 40px;
+    height: 30px;
+  }
+
+  h5 {
+    background-color: #20315A;
+    color: white;
+  }
+
+  .card {
+    background-image: url(https://usercontent1.hubstatic.com/8649970_f520.jpg);
+    background-repeat: no-repeat;
+  }

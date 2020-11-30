@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Safe Pace Stock Search</title>
+  <!-- Bootstrap CSS CDN  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+        <h1 class="text-center">
+          <strong> Smart Stop</strong>
+        </h1>
+      </div>
+  
+      <!-- Row for Searching -->
+      <div class="row">
+        <div class="col-sm-12">
+          <br>
+          <!-- For handling the search parameters -->
+          <div class="card">
+            <div class="card-body">
+  
+              <!-- HTML Form for handling the inputs-->
+              <form role="form">
+                <!--  box for capturing the search term-->
+                <div class="form-group">
+                  <label for="search">Upload Location Access code:</label>
+                  <div class='magicBtns'></div>
+                  <input type="text" class="form-control" id="stockSymbol">
+                </div>
+                <!-- Add stock  button -->
+                <button type="submit" class="btn btn-default stock-btn" id="addSymbol">Upload Code</button>
+                <button class="btn btn-default" id="clear-all">
+                  <i class="fa fa-trash"></i>Clear</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- This row will handle all of the retrieved articles -->
+      <div class="row">
+        <div class="col-sm-12">
+          <br>
+
+          <!-- This card will initially be made up of a card and wells for each of the articles retrieved -->
+          <div class="card">
+  
+            <!-- card Heading for the retrieved articles box -->
+            <div class="card-header">
+              <strong>
+                <i class= 'news'></i>Location Code</strong>
+            </div>
+  
+            <!-- This main card will hold each of the resulting articles -->
+            <div class="card-body" id="display-section">
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Footer Region -->
+      <div class="row">
+        <div class="col-sm-12">
+  
+          <!-- Line Break followed by closing -->
+          <hr>
+          <h5 class="text-center">
+            <small>smartStop &copy;</small>
+          </h5>
+  
+        </div>
+      </div>
+      <div class  ='modal' id="modal">Boom</div>
+    </div>
+    
+    <!-- jQuery JS -->
+    <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Code to the JavaScript File -->
+    <script src="app.js"></script>
+  
+    
+  </body>
+  
+  </html>
