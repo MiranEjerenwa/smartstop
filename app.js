@@ -1,7 +1,7 @@
 // create an array of strings, 
 // each one related to a stock symbol that interests you. Save it to a variable called `location`
 
-var location = [];
+var location = [FB, CNAT, MSFT];
 const validationList = [];
 console.log(validationList);
 
